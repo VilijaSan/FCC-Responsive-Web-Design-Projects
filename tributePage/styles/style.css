@@ -1,0 +1,62 @@
+body {
+	background-color: #faf0e6;
+	margin: 0;
+}
+
+header {
+	text-align: center;
+}
+
+#img-div {
+	text-align: center;
+	padding-top: 3%;
+	padding-bottom: 1%;
+	background-color: #fffaf0;
+}
+
+#img-div img {
+	max-width: 100%;
+	display: block;
+    margin: auto;
+}
+
+#img-caption {
+	font-style: italic;
+}
+
+#tribute-info {
+	display: flex;
+    flex-direction: column;
+}
+
+h2 {
+	text-align: center;
+}
+
+#tribute-info p {
+	text-align: center;
+}
+
+#tribute-info ul {	
+	align-self: center;
+	line-height: 1.5;
+}
+
+#tribute-info h2 {
+	margin-bottom: 0px;
+}
+
+#link-container {
+	background-color: #fffaf0;
+	text-align: center;
+}
+
+#link-container p {
+	margin: 0px;
+    padding: 16px;
+}
+
+main {
+	font-family: Times, "Times New Roman", Serif;
+}
+
