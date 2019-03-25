@@ -1,0 +1,82 @@
+html, body {
+    background-color: palevioletred;
+    text-align: center;
+    font-family: 'Times New Roman', Helvetica, sans-serif;
+    min-width: 320px; 
+}
+
+#title {
+    color: white;
+}
+
+.form-container {
+    background-color: white;
+    width: 50%;
+    margin: auto;
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+    border-radius: 4px;
+}
+
+.form-row {    
+    padding-bottom: 1rem;
+}
+
+.label, .content {
+    display: inline-block;
+}
+
+.label {
+    text-align: right;
+    vertical-align: top;
+    margin-right: 0.5rem;
+    width: 40%;
+}
+
+.content {
+    text-align: left;
+    margin-left: 0.5rem;
+    width: 48%;
+}
+
+@media screen and (max-width: 520px) {
+    .label {
+        width: 100%;
+        text-align: center;
+        padding-bottom: 0.3rem;
+        margin: 0;
+    }
+
+    .content {
+        width: 100%;
+        text-align: center;
+        margin: 0;
+    }
+
+    textarea {
+        width: auto !important;
+        margin: 0;
+        padding: 0;
+    }
+}
+
+#name, #email, #number, #dropdown, textarea {
+    width: 95%;
+    padding: 3px;
+}
+
+#name, #email, #number, #dropdown, textarea, #submit {
+    border-radius: 3px;
+    border: 1px solid;
+    border-color: #d4d3d3;
+}
+
+#submit {
+    padding: 10px 15px;
+    background-color: palevioletred;
+    color: white;
+}
+
+#submit:hover {
+    cursor: pointer;
+}

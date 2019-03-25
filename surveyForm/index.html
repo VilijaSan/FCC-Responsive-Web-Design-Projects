@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+    <link rel="stylesheet" type="text/css" href="styles/style.css">
+</head>
+<body>
+
+    <h1 id="title">Survey Form</h1>
+
+    <div class="form-container">
+        <p id="description">Tell us about yourself!</p><br>
+
+        <form id="survey-form" action="">
+
+            <div class="form-row">
+                <div class="label">
+                    <label id="name-label" for="name">What's your name?</label>
+                </div>
+
+                <div class="content">
+                    <input id="name" type="text" name="name" placeholder="Name" required><br>
+                </div>
+            </div>
+
+            <div class="form-row">
+                <div class="label">
+                    <label id="email-label" for="email">What's your email address?</label>
+                </div>
+    
+                <div class="content">
+                    <input id="email" type="email" name="email" placeholder="Email" required><br>            
+                </div>
+            </div>
+
+            <div class="form-row">
+                <div class="label">
+                    <label id="number-label" for="age">How old are you?</label>
+                </div>
+    
+                <div class="content">
+                    <input id="number" type="number" name="age" min="3" max="123" placeholder="Age"><br>
+                </div>
+            </div>     
+            
+            <div class="form-row">
+                <div class="label">
+                    <label id="dropdown-label" for="continent">Where are you from?</label>
+                </div>
+    
+                <div class="content">
+                    <select id="dropdown" name="continent">
+                        <option disabled selected>Select your continent</option>
+                        <option value="Africa">Africa</option>
+                        <option value="Antarctica">Antarctica</option>
+                        <option value="Australia">Australia</option>
+                        <option value="Asia">Asia</option>
+                        <option value="Europe">Europe</option>
+                        <option value="North America">North America</option>
+                        <option value="South America">South America</option>
+                    </select><br>  
+                </div>
+            </div>
+            
+            <div class="form-row">
+                <div class="label">
+                    <label id="radio-label" for="gender">What's your gender?</label>
+                </div>
+    
+                <div class="content">
+                    <input type="radio" name="gender" value="female">Female<br>
+                    <input type="radio" name="gender" value="male">Male<br>
+                </div>
+            </div>
+
+            <div class="form-row">
+                <div class="label">
+                    <label id="checkbox-label" for="favorite-food">What's your favorite food?</label>
+                </div>
+    
+                <div class="content">
+                    <input type="checkbox" name="favorite-food" value="pizza">Pizza<br>
+                    <input type="checkbox" name="favorite-food" value="sushi">Sushi<br>
+                    <input type="checkbox" name="favorite-food" value="other">Other<br> 
+                </div>
+            </div>
+            
+            <div class="form-row">
+                <div class="label">
+                    <label for="purpose">What's your purpose in life?</label>
+                </div>
+    
+                <div class="content">
+                    <textarea name="purpose" rows="5" placeholder="Write your answer here..."></textarea>
+                </div>
+            </div>
+            
+            <br>
+            <input id="submit" type="submit" value="Submit">
+
+        </form>
+    </div>
+    
+</body>
+</html>
