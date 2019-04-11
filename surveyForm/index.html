@@ -37,7 +37,7 @@
 
             <div class="form-row">
                 <div class="label">
-                    <label id="number-label" for="age">How old are you?</label>
+                    <label id="number-label" for="number">How old are you?</label>
                 </div>
     
                 <div class="content">
@@ -47,7 +47,7 @@
             
             <div class="form-row">
                 <div class="label">
-                    <label id="dropdown-label" for="continent">Where are you from?</label>
+                    <label id="dropdown-label" for="dropdown">Where are you from?</label>
                 </div>
     
                 <div class="content">
@@ -66,12 +66,12 @@
             
             <div class="form-row">
                 <div class="label">
-                    <label id="radio-label" for="gender">What's your gender?</label>
+                    <label id="radio-label" for="female male">What's your gender?</label>
                 </div>
     
                 <div class="content">
-                    <input type="radio" name="gender" value="female">Female<br>
-                    <input type="radio" name="gender" value="male">Male<br>
+                    <input type="radio" name="gender" id="female" value="female">Female<br>
+                    <input type="radio" name="gender" id="male" value="male">Male<br>
                 </div>
             </div>
 
@@ -81,9 +81,9 @@
                 </div>
     
                 <div class="content">
-                    <input type="checkbox" name="favorite-food" value="pizza">Pizza<br>
-                    <input type="checkbox" name="favorite-food" value="sushi">Sushi<br>
-                    <input type="checkbox" name="favorite-food" value="other">Other<br> 
+                    <input type="checkbox" id="favorite-food" name="favorite-food" value="pizza">Pizza<br>
+                    <input type="checkbox" id="favorite-food" name="favorite-food" value="sushi">Sushi<br>
+                    <input type="checkbox" id="favorite-food" name="favorite-food" value="other">Other<br> 
                 </div>
             </div>
             
@@ -93,7 +93,7 @@
                 </div>
     
                 <div class="content">
-                    <textarea name="purpose" rows="5" placeholder="Write your answer here..."></textarea>
+                    <textarea id="purpose" name="purpose" rows="5" placeholder="Write your answer here..."></textarea>
                 </div>
             </div>
             
